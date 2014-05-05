@@ -1,0 +1,273 @@
+/* GENERAL */
+
+.bold {
+    font-weight: 700;
+}
+
+.header_1 {
+    font-size: 4.4em;
+    letter-spacing: 1px;
+    line-height: 1.0em;
+}
+
+.header_2 {
+    font-size: 2.8em;
+    letter-spacing: 1px;
+}
+
+.header_3 {
+    font-size: 1.8em;
+    letter-spacing: 1px;
+}
+
+.header_4 {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+}
+
+hr {
+    background-color: #ddd;
+    border: 0;
+    height: 1px;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0; padding: 0;
+    position: relative;
+    min-width: 960px;
+    font-size: 1.0em;
+}
+
+.content {
+    margin: 0 auto;
+    width: 960px;
+}
+
+/* HOME */
+
+#logo_offset {
+    position: relative;
+    height: 800px; width: 100%;
+}
+
+.backdrop_gradient {
+    width: 100%; height: 200px;
+    background: -webkit-linear-gradient(rgba(255,255,255,0), white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(255,255,255,0), white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(255,255,255,0), white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(255,255,255,0), white);
+}
+
+.backdrop {
+    background-color: white;
+}
+
+#logo {
+    position: fixed;
+    top: 50%; left: 50%;
+    z-index: -100;
+    margin-left: -125px; margin-top: -170px;
+    /*
+    margin: 0 auto;
+    width: 250px;
+    */
+}
+
+#logo img {
+    margin: auto;
+    box-shadow: 10px 10px 5px #888;
+    border-radius: 125px;
+    width: 250px; height: 250px;
+}
+
+#down_arrow {
+    text-align: center;
+    font-size: 1.2em;
+    color: #888;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.nav .nav_element {
+    display: inline-block;
+    width: 70px;
+}
+
+.issue {
+    margin: 20 auto 40 auto;
+    height: 300px;
+    width: 900px;
+    padding: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#issue_01 {background-image: url("/images/banner_1.png");}
+#issue_02 {background-image: url("/images/banner_2.png");}
+#issue_03 {background-image: url("/images/banner_3.png");}
+
+#issue_01 > div {
+    width: 50%;
+}
+
+#issue_02 > div {
+    margin-left: 50%;
+    width: 50%;
+    text-align: right;
+}
+
+#issue_03 > div {
+    width: 40%;
+}
+
+.about {
+    text-align: justify;
+}
+
+/* ISSUES */
+
+.filler {
+    height: 2000px;
+    width: 100%;
+}
+
+.issue_nav {
+    width: 100%;
+    height: 160px;
+    /*background-color: rgba(255,255,255,0.7); */
+}
+
+.issue_nav_element {
+    display: inline-block;
+    width: 92px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+
+.element_name {
+    font-size: 0.8em;
+    opacity: 0;
+}
+
+.element_icon {
+    border-radius: 40px;
+    width: 64px; height: 64px;
+    margin: 5px auto;
+    box-shadow: 10px 10px 5px #555;
+}
+
+.element_line { 
+    opacity: 0; 
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.issue_nav_element.active > .element_line {
+    opacity: 1.0;
+}
+
+.hero {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    min-width: 960px;
+    position: relative;
+    background-position: 0 0;
+}
+
+.hero_mask {
+    position: absolute;
+    width: 960px;
+}
+
+.hero_filler {
+    height: 540px;
+    width: 100%;
+}
+
+#issue01_hero {
+    background: url("/images/issue01/hero.png") no-repeat;
+    background-position: 0% 65%;
+    background-color: white;
+    background-size: cover;
+}
+
+#issue01_hero .hero_mask {
+    margin: 280px auto 0 auto;
+    left: 50%; margin-left: -480px;
+}
+
+.text {
+    width: 800px;
+    margin: 80 auto;
+    font-size: 1.4em;
+}
+
+.image {
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+    height: 360px;
+}
+
+#i01b01 { background: url("/images/issue01/banner01.png") no-repeat center center; }
+
+/* FOOTER */
+
+.footer {
+}
+
+.footer > div {
+    width: 240px;
+    margin: 0 119px 50 119px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer .footer_title {
+    margin: 0 0 10 0;
+}
+
+.footer .contact {
+    line-height: 1.5em;
+}
+
+#mce-EMAIL {
+    height: 40px;
+    border: 3px solid #888;
+    padding: 0 10px;
+    margin: 0px;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.0em;
+}
+
+#mce-EMAIL:focus {
+    outline: 0;
+}
+
+#mc-embedded-subscribe {
+    height: 40px;
+    width: 40px;
+    background-color: #888;
+    border: 0px;
+    margin: 0px;
+    font-weight: 700;
+    color: white;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.0em;
+
+}
